@@ -1,3 +1,5 @@
+//big O here is equal to N (linear)
+//The bigger copying object, the longer it takes to copy all subfields, but it doesn't grow N^2 or logN, linear it is.
 function makeObjectDeepCopy(obj) {
   let OBJ = {};
   let init = obj;
