@@ -1,3 +1,4 @@
+//big O: constant (1), because adding, removing, peeking and length is also a property in Array.
 const stack = () => {
 	let stack = []
 	return {
