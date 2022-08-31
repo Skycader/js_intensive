@@ -1,4 +1,3 @@
-
 Object.prototype[Symbol.iterator] = function() {
 
   if ((typeof this.from != 'number')||(typeof this.to != 'number')||(this.to<this.from)) throw new Error('Error!')
