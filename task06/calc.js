@@ -5,9 +5,11 @@ class Calculator {
     this._y = y;
   }
   setX(x) {
+    if (isNaN(x)) throw new Error("Invalid number");
     this._x = x;
   }
   setY(y) {
+    if (isNaN(y)) throw new Error("Invalid number");
     this._y = y;
   }
   logSum() {
